@@ -28,7 +28,7 @@ export const Hero = () => {
 
         <div className="space-y-4 md:space-y-0 md:space-x-4">
           <a
-            href="https://slack.com/oauth/v2/authorize?client_id=7919030236097.7919041957041&scope=app_mentions:read,channels:history,channels:read,chat:write,chat:write.customize,commands,files:read,im:history,im:read,im:write,links:read,users:read,users:read.email&user_scope="
+            href="https://api.slacksummarizer.com/oauth/start"
             className="inline-block"
           >
             <img
