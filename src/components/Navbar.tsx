@@ -43,7 +43,7 @@ const routeList: RouteProps[] = [
 ];
 
 export const Navbar = () => {
-  const [isOpen, setIsOpen] = useState<boolean>(false);
+  // const [isOpen, setIsOpen] = useState<boolean>(false);
   return (
     <header className="sticky border-b-[1px] top-0 z-40 w-full bg-white dark:border-b-slate-700 dark:bg-background">
       <NavigationMenu className="mx-auto">
@@ -62,7 +62,7 @@ export const Navbar = () => {
           </NavigationMenuItem>
 
           {/* mobile */}
-          <span className="flex md:hidden">
+          {/* <span className="flex md:hidden">
             <ModeToggle />
 
             <Sheet
@@ -81,7 +81,7 @@ export const Navbar = () => {
               <SheetContent side={"left"}>
                 <SheetHeader>
                   <SheetTitle className="font-bold text-xl">
-                    Shadcn/React
+                    Slack Summarizer
                   </SheetTitle>
                 </SheetHeader>
                 <nav className="flex flex-col justify-center items-center gap-2 mt-4">
@@ -110,7 +110,7 @@ export const Navbar = () => {
                 </nav>
               </SheetContent>
             </Sheet>
-          </span>
+          </span> */}
 
           {/* desktop */}
           <nav className="hidden md:flex gap-2">

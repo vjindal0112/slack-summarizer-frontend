@@ -16,7 +16,7 @@ import slackdemo from "../assets/slack-demo-high-res.png"
 
 export const HeroCards = () => {
   return (
-    <div className="hidden lg:flex flex-row flex-wrap gap-8 relative">
+    <div className="flex flex-row flex-wrap gap-8 relative">
       <img src={slackdemo} alt="slack demo" className="w-full h-full object-cover" />
 
 
